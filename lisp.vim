@@ -1,13 +1,3 @@
-""" ==============================================================
-""" ==============================================================
-""" SaneCL       - VimScript Common Lisp Indentation
-"""
-""" Maintainer   - Eric O'Connor <oconnore@gmail.com>
-""" Last edit    - April 16, 2010
-""" License      - Released under the VIM license
-""" ==============================================================
-""" ==============================================================
-
 if exists("b:did_ftplugin")
    finish
 endif
@@ -676,5 +666,3 @@ inoremap <buffer><silent> <CR> <CR><Esc>:CLIndentLine<CR>a
 
 au! VimLeave *.lisp CLSaveWords
 
-" -------------------------------------------------------
-" Thanks for reading!
